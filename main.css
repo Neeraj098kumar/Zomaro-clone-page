@@ -1,0 +1,225 @@
+*{
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: 'poppins', sans-serif;
+}
+body{
+   background: white;
+   margin-bottom: -32px;
+}
+/* Hero  section.................................. */
+.hero-section{
+   background-image: url('../zomatobgimage.webp');
+   height: 400px;
+   position: relative;
+   background-position: center;
+   background-size: cover;
+   
+}
+.navbar{
+   display: flex;
+   height: 40px;
+   align-items: center;
+   justify-content: space-between;
+   padding-right: 100px;
+   padding-left: 100px;
+ 
+   font-size: 20px;
+   border-color: beige;
+   text-decoration-line: none;
+   width: auto;
+   padding-top: 3rem;
+   padding-bottom: 2rem;
+}
+.navbar a{
+   color: white;
+   text-decoration: none;
+}
+.navbar a:hover{
+  transition-duration: 0.15s;
+  transform: matrix(1.2);
+}
+.container{
+   display: flex;
+   gap: 25px;
+}
+/* .ZOMATO-heading{
+   align-items: center;
+   text-align: center;
+   font-size: 25px;
+   color: white;
+   background-color: white;
+   
+} */
+.head-class{
+   text-align: center;
+   justify-content: center;
+   display: flex;
+   color: white;
+   font-size: 50px;
+   padding-top: 3rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+p{
+   text-align: center;
+   font-size: 33px ;
+   color: white;
+}
+.button-2 {
+   justify-content: center;
+   display: flex;
+   font-size: 25px;
+
+}
+/* .btn{
+
+   margin: 30px;
+   padding-top: 30px;
+   display:inline-block;
+   border: 20px solid white;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+  
+  
+} */
+
+.search-menu{
+  text-align: center;
+  margin-top: 50px;
+  justify-content: center;
+  border: 0.25rem;
+  width: auto;
+}
+.main-div{
+  
+   border: 2px solid white;
+  display: flex;
+  gap: 2rem;
+  margin-right: 20rem;
+  margin-left: 8rem;
+ 
+}
+.main-div:hover{
+   background-image: initial;
+   background-color: white;
+
+}
+.main-div h3{
+   font-size: 18px;
+   font-family: "https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap";
+   font-weight: normal;
+
+}
+.main-div h3:hover{
+   background-color: aqua;
+}
+/* .................................................................................................... */
+.collection p{
+   color: black;
+   font-size: 14px;
+   margin-right: 32rem;
+}
+.collection{
+   /* margin: 0px 0px; */
+   padding: 8rem;
+   margin-bottom: 10rem;
+   padding-bottom: 8rem;
+   /* padding-top: 5rem; */
+   position: relative;
+   font-size: 25px;
+   background-color: white;
+
+   
+
+
+
+}
+.div2-heading{
+ padding-bottom: 5rem;
+ display: inline-flex;
+ text-shadow: greenyellow blue;
+ 
+
+}
+.main2-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid white;
+   background-color: white;
+   position: relative;
+   gap: 1rem;
+   border-radius: 20px;
+   text-overflow: unset;
+}
+.main2-container:hover{
+   background-color: white;
+}
+
+/* ......................................................................... */
+/* .main3-container{
+   margin: 8rem;
+   margin-bottom: 5rem;
+   padding-bottom: 10rem;
+   font-size: 25px;
+
+}
+.section3{
+   height: 600px;
+   background-color: rgb(255,251, 247);
+
+}
+.main3-container-itmes{
+   width: 1080px;
+   height: 100%;
+
+} */
+/* SECTION 2 */
+.section-2 {
+   width: 1080px;
+   margin: 0 auto;
+   margin-bottom: 4rem;
+}
+.section-2-heading {
+   font-size: 2rem;
+   line-height: 1.2;
+   font-weight: 400;
+}
+.section-2 .section-2-container .section-2-items {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.section-2 .section-2-container .section-2-items .section-2-item {
+   width: 100%;
+   max-width: 26%;
+   margin-bottom: 20px;
+}
+.section-2-item {
+   border-radius: 10px;
+   box-shadow: 0 2px 4px rgb(236, 236, 236);
+   padding: 20px;
+}
+.section-2-item .item-head {
+   font-size: 1.2rem;
+   color: rgb(28, 28, 28);
+   margin: 0;
+   margin-bottom: 5px;
+}
+.section-2-item .item-subhead {
+   font-weight: lighter;
+   color: rgb(51, 51, 51);
+   margin: 0;
+}
+.section2-heading{
+   color: black;
+   padding-right: 28rem;
+   margin: 0   ;
+ 
+}
+
